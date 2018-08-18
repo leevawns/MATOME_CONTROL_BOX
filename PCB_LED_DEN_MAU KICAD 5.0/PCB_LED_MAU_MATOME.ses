@@ -1,0 +1,121 @@
+
+(session PCB_LED_MAU_MATOME.ses
+  (base_design PCB_LED_MAU_MATOME.dsn)
+  (placement
+    (resolution um 10)
+    (component LEDs:LED_D5.0mm
+      (place D1 1090000 -1130000 front 0)
+      (place D2 1230000 -1130000 front 0)
+      (place D3 1370000 -1130000 front 0)
+      (place D4 1510000 -1130000 front 0)
+    )
+    (component "Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight"
+      (place J1 1250000 -1085000 back 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.0.0-rc3)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_1000:500_um"
+        (shape
+          (circle F.Cu 10000 0 0)
+        )
+        (shape
+          (circle B.Cu 10000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_3500:3000_um"
+        (shape
+          (circle F.Cu 35000 0 0)
+        )
+        (shape
+          (circle B.Cu 35000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(D1-Pad1)"
+        (wire
+          (path B.Cu 3000
+            1250000 -1085000
+            1135000 -1085000
+            1090000 -1130000
+          )
+        )
+      )
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path F.Cu 3000
+            1350000 -1085000
+            1305000 -1130000
+            1255400 -1130000
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1395400 -1130000
+            1408904 -1143504
+            1521896 -1143504
+            1535400 -1130000
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1255400 -1130000
+            1241896 -1143504
+            1128904 -1143504
+            1115400 -1130000
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1350000 -1085000
+            1395000 -1130000
+            1395400 -1130000
+          )
+        )
+      )
+      (net "Net-(D2-Pad1)"
+        (wire
+          (path B.Cu 3000
+            1275000 -1085000
+            1230000 -1130000
+          )
+        )
+      )
+      (net "Net-(D3-Pad1)"
+        (wire
+          (path B.Cu 3000
+            1300000 -1085000
+            1345000 -1130000
+            1370000 -1130000
+          )
+        )
+      )
+      (net "Net-(D4-Pad1)"
+        (wire
+          (path B.Cu 3000
+            1510000 -1130000
+            1496497 -1130000
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1325000 -1085000
+            1337603 -1072397
+            1438894 -1072397
+            1496497 -1130000
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+LIBS:PCB_LED_MAU_MATOME-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L conn:Conn_01x06 J1
+U 1 1 5A66C7DD
+P 6150 3350
+F 0 "J1" H 6150 3650 50  0000 C CNN
+F 1 "Conn_01x06" H 6150 2950 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight" H 6150 3350 50  0001 C CNN
+F 3 "" H 6150 3350 50  0001 C CNN
+	1    6150 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L device:LED D4
+U 1 1 5A66C875
+P 5400 3300
+F 0 "D4" H 5400 3400 50  0000 C CNN
+F 1 "LED" H 5400 3200 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5400 3300 50  0001 C CNN
+F 3 "" H 5400 3300 50  0001 C CNN
+	1    5400 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D3
+U 1 1 5A66C90B
+P 5400 3600
+F 0 "D3" H 5400 3700 50  0000 C CNN
+F 1 "LED" H 5400 3500 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D2
+U 1 1 5A66C964
+P 5400 3900
+F 0 "D2" H 5400 4000 50  0000 C CNN
+F 1 "LED" H 5400 3800 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5400 3900 50  0001 C CNN
+F 3 "" H 5400 3900 50  0001 C CNN
+	1    5400 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D1
+U 1 1 5A66C96A
+P 5400 4200
+F 0 "D1" H 5400 4300 50  0000 C CNN
+F 1 "LED" H 5400 4100 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 5400 4200 50  0001 C CNN
+F 3 "" H 5400 4200 50  0001 C CNN
+	1    5400 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 3600 5800 3600
+Wire Wire Line
+	5550 3900 5850 3900
+Wire Wire Line
+	5550 4200 5900 4200
+Wire Wire Line
+	5150 4200 5250 4200
+Wire Wire Line
+	5150 3150 5150 3300
+Wire Wire Line
+	5150 3900 5250 3900
+Wire Wire Line
+	5250 3600 5150 3600
+Connection ~ 5150 3900
+Wire Wire Line
+	5250 3300 5150 3300
+Connection ~ 5150 3600
+Connection ~ 5150 3300
+Wire Wire Line
+	5150 3900 5150 4200
+Wire Wire Line
+	5150 3600 5150 3900
+Wire Wire Line
+	5150 3300 5150 3600
+Wire Wire Line
+	5150 3150 5950 3150
+Wire Wire Line
+	5750 3300 5750 3250
+Wire Wire Line
+	5750 3250 5950 3250
+Wire Wire Line
+	5550 3300 5750 3300
+Wire Wire Line
+	5800 3350 5950 3350
+Wire Wire Line
+	5800 3350 5800 3600
+Wire Wire Line
+	5850 3450 5950 3450
+Wire Wire Line
+	5850 3450 5850 3900
+Wire Wire Line
+	5900 3550 5950 3550
+Wire Wire Line
+	5900 3550 5900 4200
+NoConn ~ 5950 3050
+$EndSCHEMATC
