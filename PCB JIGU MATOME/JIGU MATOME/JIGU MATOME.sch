@@ -1,0 +1,203 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LEEVAWNS:757BS U1
+U 1 1 5B7A7A79
+P 5500 3450
+F 0 "U1" H 5800 3675 50  0000 C CNN
+F 1 "757BS" H 5800 3584 50  0000 C CNN
+F 2 "LEEVAWNS:757BS" H 5500 3450 50  0001 C CNN
+F 3 "" H 5500 3450 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 5B7A7B78
+P 6800 3600
+F 0 "J5" H 6719 2975 50  0000 C CNN
+F 1 "Conn_01x08" H 6719 3066 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B08B-XH-A_1x08_P2.50mm_Vertical" H 6800 3600 50  0001 C CNN
+F 3 "~" H 6800 3600 50  0001 C CNN
+	1    6800 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 5B7A7C8C
+P 6800 4250
+F 0 "J6" H 6880 4242 50  0000 L CNN
+F 1 "Conn_01x06" H 6880 4151 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B06B-XH-A_1x06_P2.50mm_Vertical" H 6800 4250 50  0001 C CNN
+F 3 "~" H 6800 4250 50  0001 C CNN
+	1    6800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5B7A7D0A
+P 4600 3450
+F 0 "J3" H 4519 3025 50  0000 C CNN
+F 1 "Conn_01x04" H 4519 3116 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 4600 3450 50  0001 C CNN
+F 3 "~" H 4600 3450 50  0001 C CNN
+	1    4600 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5B7A7D8C
+P 3850 3350
+F 0 "J1" H 3770 3667 50  0000 C CNN
+F 1 "Conn_01x04" H 3770 3576 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 3850 3350 50  0001 C CNN
+F 3 "~" H 3850 3350 50  0001 C CNN
+	1    3850 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3450 6150 3450
+Wire Wire Line
+	6150 3450 6150 3200
+Wire Wire Line
+	6150 3200 6600 3200
+Wire Wire Line
+	6600 3300 6200 3300
+Wire Wire Line
+	6200 3300 6200 3550
+Wire Wire Line
+	6200 3550 6100 3550
+Wire Wire Line
+	5500 3550 5400 3550
+Wire Wire Line
+	5400 3550 5400 3100
+Wire Wire Line
+	5400 3100 6550 3100
+Wire Wire Line
+	6550 3100 6550 3400
+Wire Wire Line
+	6550 3400 6600 3400
+Wire Wire Line
+	6600 3500 6250 3500
+Wire Wire Line
+	6250 3500 6250 3750
+Wire Wire Line
+	6250 3750 6100 3750
+Wire Wire Line
+	6600 3600 6500 3600
+Wire Wire Line
+	6500 3600 6500 3150
+Wire Wire Line
+	6500 3150 5450 3150
+Wire Wire Line
+	5450 3150 5450 3750
+Wire Wire Line
+	5450 3750 5500 3750
+Wire Wire Line
+	6600 3700 6350 3700
+Wire Wire Line
+	6350 3700 6350 4150
+Wire Wire Line
+	6350 4150 5400 4150
+Wire Wire Line
+	5400 4150 5400 3850
+Wire Wire Line
+	5400 3850 5500 3850
+Wire Wire Line
+	6600 3800 6400 3800
+Wire Wire Line
+	6400 3800 6400 4200
+Wire Wire Line
+	6400 4200 5350 4200
+Wire Wire Line
+	5350 4200 5350 3950
+Wire Wire Line
+	5350 3950 5500 3950
+Wire Wire Line
+	6600 4550 5200 4550
+Wire Wire Line
+	5200 4550 5200 3450
+Wire Wire Line
+	5200 3450 5500 3450
+Wire Wire Line
+	6600 4450 5250 4450
+Wire Wire Line
+	5250 4450 5250 3650
+Wire Wire Line
+	5250 3650 5500 3650
+Wire Wire Line
+	6600 4350 6450 4350
+Wire Wire Line
+	6450 4350 6450 3650
+Wire Wire Line
+	6450 3650 6100 3650
+Wire Wire Line
+	6600 4250 6150 4250
+Wire Wire Line
+	6150 4250 6150 3950
+Wire Wire Line
+	6150 3950 6100 3950
+Wire Wire Line
+	6600 4150 6500 4150
+Wire Wire Line
+	6500 4150 6500 3950
+Wire Wire Line
+	6500 3950 6250 3950
+Wire Wire Line
+	6250 3950 6250 3850
+Wire Wire Line
+	6250 3850 6100 3850
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5B7ACB1F
+P 4600 4100
+F 0 "J4" H 4519 3675 50  0000 C CNN
+F 1 "Conn_01x04" H 4519 3766 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 4600 4100 50  0001 C CNN
+F 3 "~" H 4600 4100 50  0001 C CNN
+	1    4600 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5B7ACB26
+P 3850 4000
+F 0 "J2" H 3770 4317 50  0000 C CNN
+F 1 "Conn_01x04" H 3770 4226 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 3850 4000 50  0001 C CNN
+F 3 "~" H 3850 4000 50  0001 C CNN
+	1    3850 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3250 4050 3250
+Wire Wire Line
+	4050 3350 4400 3350
+Wire Wire Line
+	4400 3450 4050 3450
+Wire Wire Line
+	4050 3550 4400 3550
+Wire Wire Line
+	4400 3900 4050 3900
+Wire Wire Line
+	4050 4000 4400 4000
+Wire Wire Line
+	4050 4200 4400 4200
+Wire Wire Line
+	4050 4100 4400 4100
+NoConn ~ 6600 3900
+NoConn ~ 6600 4050
+$EndSCHEMATC
