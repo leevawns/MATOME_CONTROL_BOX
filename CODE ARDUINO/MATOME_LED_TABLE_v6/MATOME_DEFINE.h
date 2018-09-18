@@ -77,6 +77,7 @@ boolean stringComplete = false;  // whether the string is complete
 String DATA="";// var to save data receive from server
 String model="";// name model
 String findAP="";// string search AP
+String response=""; // use for serial 1
 //--------------------------------
 unsigned int target=0;
 unsigned int actual=0;
@@ -94,8 +95,8 @@ byte six = 0;
 byte seven = 0;
 //--------------------------------
 bool dem_button=false;
-bool debug=true;
-bool old=false;
+bool debug=false; // debug mode, print DATA TO serial 0
+bool old=false;   // old design
 //-------------------------------
 String SSID_ = "\"MATOME\"";
 String PASSWORD_ = "\"25021993\"";

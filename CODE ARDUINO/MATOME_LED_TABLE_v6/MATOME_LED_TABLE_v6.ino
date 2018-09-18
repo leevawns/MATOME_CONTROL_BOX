@@ -23,12 +23,13 @@
  /*
   * 24/10/2017: add Enableinterrupt.h to control all pin for interrupt
   * next_,back_,home_ to interrupt change funtion
-  * 02/11/17: add clearDisplay(), clear all led.
-  * 04/11/17: add home_ watchdog timer
-  * 16/11/17: add autoconnect wifi.
-  * 30/11/17: add clear buffer serial1, close tcp if send/receive ok
+  * 02/11/17: Add clearDisplay(), clear all led.
+  * 04/11/17: Add home_ watchdog timer
+  * 16/11/17: Add autoconnect wifi.
+  * 30/11/17: Add clear buffer serial1, close tcp if send/receive ok
   * 20/01/2018: Add defined file, compile for v3 pcb
-  * 25/01/2018: add support for version<3
+  * 25/01/2018: Add support for version<3
+  * 18/09/2018: responce to globle var;funct reverse(2000) --> reverse(3000) repair error with new matome insert machine
   */
 #include <LedControl.h>
 #include <Wire.h>
@@ -61,7 +62,8 @@ void setup() {
   Serial1.begin(115200);
   // reserve bytes for the inputString:
   inputString.reserve(10);
-  DATA.reserve(2000);
+  DATA.reserve(3000);
+  response.reserve(3000);
   findAP.reserve(20);
   //-----------SETTING LED MAIN------------
   for(int i=0;i<cl_main.getDeviceCount();i++){
@@ -447,7 +449,7 @@ unsigned int address(int num_){
   }
 //----------send cmd and get response-------------------------------------------------
 bool send_get(String command,String condition, unsigned int timeout_)
-{   String response = "";
+{   response = "";
     clear_buffer_serial1();
     Serial1.print(command+"\r\n");
     unsigned long time_ = millis();  
@@ -466,7 +468,7 @@ bool send_get(String command,String condition, unsigned int timeout_)
 }
 //----check status esp and arduino------------------------------------------------
 char check_esp(){
-  String response="";
+  response="";
   //Serial1.flush();
   clear_buffer_serial1();
   Serial1.print("AT+CIPSTATUS\r\n");
@@ -537,7 +539,7 @@ bool sw(String str){
 bool get_data()
 {   
     clear_buffer_serial1();
-    String response = "";
+    response = "";
     Serial1.print("AT+CIPSEND=5\r\n");
     delay(100);
     Serial1.print("MODEL");
