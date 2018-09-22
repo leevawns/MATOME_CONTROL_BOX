@@ -15,7 +15,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -61,7 +61,7 @@
     (mod_text_width 0.15)
     (pad_size 4.064 4.064)
     (pad_drill 3.048)
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance 0.1)
     (aux_axis_origin 103.378 121.666)
     (visible_elements 7FFFFFFF)
     (pcbplotparams

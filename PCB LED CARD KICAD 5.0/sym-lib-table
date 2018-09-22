@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name mylib_kicad)(type Legacy)(uri "D:/CAM XOA/thu vien kicad/LEE/mylib_kicad.lib")(options "")(descr ""))
+  (lib (name BAI2-cache)(type Legacy)(uri "D:/1.MR-LAP/16. Kicad/MATOME/KICAD_V5/MATOME_CONTROL_BOX/PCB LED CARD KICAD 5.0/BAI2-cache.lib")(options "")(descr ""))
 )
