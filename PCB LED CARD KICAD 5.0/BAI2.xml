@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:/PROJECT WORKING/18. KICARD/BAI2.sch</source>
-    <date>2017/12/23 15:38:24</date>
-    <tool>Eeschema 4.0.7</tool>
+    <source>D:\1.MR-LAP\16. Kicad\MATOME\KICAD_V5\MATOME_CONTROL_BOX\PCB LED CARD KICAD 5.0\BAI2.sch</source>
+    <date>03/10/2018 20:30:56</date>
+    <tool>Eeschema (5.0.0-rc3)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -21,426 +21,473 @@
   <components>
     <comp ref="U1">
       <value>MAX7219</value>
-      <libsource lib="microchip" part="MAX7219"/>
+      <footprint>Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm</footprint>
+      <libsource lib="LEEVAWNS" part="MAX7219" description="Serially Interfaced, 8-Digit LED Display Driver"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3CFDE1</tstamp>
     </comp>
-    <comp ref="J2">
+    <comp ref="J1">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D0060</tstamp>
     </comp>
-    <comp ref="J4">
+    <comp ref="J2">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D010E</tstamp>
     </comp>
-    <comp ref="J3">
+    <comp ref="J31">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D01A9</tstamp>
     </comp>
-    <comp ref="J5">
+    <comp ref="J32">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D01AF</tstamp>
     </comp>
-    <comp ref="J27">
+    <comp ref="J18">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D07C5</tstamp>
     </comp>
-    <comp ref="J28">
+    <comp ref="J19">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D086E</tstamp>
     </comp>
-    <comp ref="J29">
+    <comp ref="J20">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D09CE</tstamp>
     </comp>
-    <comp ref="J19">
+    <comp ref="J9">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D0AEE</tstamp>
     </comp>
-    <comp ref="J35">
+    <comp ref="J27">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D0D3C</tstamp>
     </comp>
-    <comp ref="J36">
+    <comp ref="J28">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D0E11</tstamp>
     </comp>
-    <comp ref="J37">
+    <comp ref="J29">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D0E89</tstamp>
     </comp>
-    <comp ref="J38">
+    <comp ref="J30">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D0E8F</tstamp>
     </comp>
-    <comp ref="J1">
+    <comp ref="J26">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D0FFF</tstamp>
     </comp>
-    <comp ref="100n1">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D1E74</tstamp>
     </comp>
-    <comp ref="10K1">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D1F93</tstamp>
     </comp>
-    <comp ref="100n5">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D2FA0</tstamp>
     </comp>
-    <comp ref="10K5">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3D2FA6</tstamp>
     </comp>
-    <comp ref="J6">
+    <comp ref="J3">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2EF0</tstamp>
     </comp>
-    <comp ref="J8">
+    <comp ref="J4">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2EF6</tstamp>
     </comp>
-    <comp ref="J7">
+    <comp ref="J33">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2EFC</tstamp>
     </comp>
-    <comp ref="J9">
+    <comp ref="J34">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2F02</tstamp>
     </comp>
-    <comp ref="J10">
+    <comp ref="J5">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E4560</tstamp>
     </comp>
-    <comp ref="J12">
+    <comp ref="J6">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E4566</tstamp>
     </comp>
-    <comp ref="J11">
+    <comp ref="J35">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E456C</tstamp>
     </comp>
-    <comp ref="J13">
+    <comp ref="J36">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E4572</tstamp>
     </comp>
-    <comp ref="J14">
+    <comp ref="J7">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E458E</tstamp>
     </comp>
-    <comp ref="J16">
+    <comp ref="J8">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E4594</tstamp>
     </comp>
-    <comp ref="J15">
+    <comp ref="J37">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E459A</tstamp>
     </comp>
-    <comp ref="J17">
+    <comp ref="J38">
       <value>Conn_01x06</value>
-      <libsource lib="conn" part="Conn_01x06"/>
+      <footprint>Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E45A0</tstamp>
     </comp>
     <comp ref="U2">
       <value>MAX7219</value>
-      <libsource lib="microchip" part="MAX7219"/>
+      <footprint>Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm</footprint>
+      <libsource lib="LEEVAWNS" part="MAX7219" description="Serially Interfaced, 8-Digit LED Display Driver"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3ED095</tstamp>
     </comp>
-    <comp ref="100n2">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3ED09B</tstamp>
     </comp>
-    <comp ref="10K2">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3ED0A1</tstamp>
     </comp>
     <comp ref="U3">
       <value>MAX7219</value>
-      <libsource lib="microchip" part="MAX7219"/>
+      <footprint>Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm</footprint>
+      <libsource lib="LEEVAWNS" part="MAX7219" description="Serially Interfaced, 8-Digit LED Display Driver"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3ED759</tstamp>
     </comp>
-    <comp ref="100n3">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3ED75F</tstamp>
     </comp>
-    <comp ref="10K3">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3ED765</tstamp>
     </comp>
     <comp ref="U4">
       <value>MAX7219</value>
-      <libsource lib="microchip" part="MAX7219"/>
+      <footprint>Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm</footprint>
+      <libsource lib="LEEVAWNS" part="MAX7219" description="Serially Interfaced, 8-Digit LED Display Driver"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3EE18D</tstamp>
     </comp>
-    <comp ref="100n4">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3EE193</tstamp>
     </comp>
-    <comp ref="10K4">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3EE199</tstamp>
     </comp>
-    <comp ref="J30">
+    <comp ref="J21">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3F49A0</tstamp>
     </comp>
-    <comp ref="J31">
+    <comp ref="J22">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3F49A6</tstamp>
     </comp>
-    <comp ref="J32">
+    <comp ref="J23">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3F49AC</tstamp>
     </comp>
-    <comp ref="J33">
+    <comp ref="J24">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3F4A86</tstamp>
     </comp>
-    <comp ref="J34">
+    <comp ref="J25">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3F4A8C</tstamp>
     </comp>
-    <comp ref="J20">
+    <comp ref="J10">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2050</tstamp>
     </comp>
-    <comp ref="100n6">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A3E2056</tstamp>
-    </comp>
-    <comp ref="10K6">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A3E205C</tstamp>
-    </comp>
-    <comp ref="J21">
+    <comp ref="J11">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E21E2</tstamp>
     </comp>
-    <comp ref="100n7">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A3E21E8</tstamp>
-    </comp>
-    <comp ref="10K7">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A3E21EE</tstamp>
-    </comp>
-    <comp ref="J22">
+    <comp ref="J12">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2206</tstamp>
     </comp>
-    <comp ref="100n8">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A3E220C</tstamp>
-    </comp>
-    <comp ref="10K8">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A3E2212</tstamp>
-    </comp>
-    <comp ref="J23">
+    <comp ref="J13">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2470</tstamp>
     </comp>
-    <comp ref="100n9">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E2476</tstamp>
     </comp>
-    <comp ref="10K9">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E247C</tstamp>
     </comp>
-    <comp ref="J24">
+    <comp ref="J14">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24A0</tstamp>
     </comp>
-    <comp ref="100n10">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24A6</tstamp>
     </comp>
-    <comp ref="10K10">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24AC</tstamp>
     </comp>
-    <comp ref="J25">
+    <comp ref="J15">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24C4</tstamp>
     </comp>
-    <comp ref="100n11">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24CA</tstamp>
     </comp>
-    <comp ref="10K11">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24D0</tstamp>
     </comp>
-    <comp ref="J26">
+    <comp ref="J16">
       <value>Conn_01x04</value>
-      <libsource lib="conn" part="Conn_01x04"/>
+      <footprint>Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24E8</tstamp>
     </comp>
-    <comp ref="100n12">
-      <value>C</value>
-      <libsource lib="device" part="C"/>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24EE</tstamp>
     </comp>
-    <comp ref="10K12">
-      <value>R</value>
-      <libsource lib="device" part="R"/>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E24F4</tstamp>
     </comp>
-    <comp ref="J18">
+    <comp ref="J17">
       <value>Conn_01x08</value>
-      <libsource lib="conn" part="Conn_01x08"/>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3E4204</tstamp>
     </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3E63EC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3E64E8</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3E66E6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3E67A9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3E6868</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3E691B</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="Conn_01x04">
-      <description>Generic connector, single row, 01x04</description>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_??x*mm*</fp>
-        <fp>Connector*:*1x??x*mm*</fp>
-        <fp>Pin?Header?Straight?1X*</fp>
-        <fp>Pin?Header?Angled?1X*</fp>
-        <fp>Socket?Strip?Straight?1X*</fp>
-        <fp>Socket?Strip?Angled?1X*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
@@ -453,16 +500,11 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="Conn_01x06">
-      <description>Generic connector, single row, 01x06</description>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_??x*mm*</fp>
-        <fp>Connector*:*1x??x*mm*</fp>
-        <fp>Pin?Header?Straight?1X*</fp>
-        <fp>Pin?Header?Angled?1X*</fp>
-        <fp>Socket?Strip?Straight?1X*</fp>
-        <fp>Socket?Strip?Angled?1X*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
@@ -477,16 +519,11 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="Conn_01x08">
-      <description>Generic connector, single row, 01x08</description>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_??x*mm*</fp>
-        <fp>Connector*:*1x??x*mm*</fp>
-        <fp>Pin?Header?Straight?1X*</fp>
-        <fp>Pin?Header?Angled?1X*</fp>
-        <fp>Socket?Strip?Straight?1X*</fp>
-        <fp>Socket?Strip?Angled?1X*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
@@ -503,48 +540,26 @@
         <pin num="8" name="Pin_8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="microchip" part="MAX7219">
-      <aliases>
-        <alias>MAX</alias>
-      </aliases>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
       <footprints>
-        <fp>SOP24</fp>
+        <fp>*:C_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MAX7219</field>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
       </fields>
       <pins>
-        <pin num="1" name="DIN" type="input"/>
-        <pin num="2" name="DIG_0" type="BiDi"/>
-        <pin num="3" name="DIG_4" type="BiDi"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="DIG_6" type="BiDi"/>
-        <pin num="6" name="DIG_2" type="BiDi"/>
-        <pin num="7" name="DIG_3" type="BiDi"/>
-        <pin num="8" name="DIG_7" type="BiDi"/>
-        <pin num="9" name="GND" type="power_in"/>
-        <pin num="10" name="DIG_5" type="BiDi"/>
-        <pin num="11" name="DIG_1" type="BiDi"/>
-        <pin num="12" name="CS" type="input"/>
-        <pin num="13" name="CLK" type="BiDi"/>
-        <pin num="14" name="SEG_A" type="BiDi"/>
-        <pin num="15" name="SEG_B" type="BiDi"/>
-        <pin num="17" name="SEG_G" type="BiDi"/>
-        <pin num="18" name="ISET" type="passive"/>
-        <pin num="19" name="VCC" type="power_in"/>
-        <pin num="20" name="SEG_C" type="input"/>
-        <pin num="21" name="SEG_E" type="input"/>
-        <pin num="22" name="SEG_DP" type="input"/>
-        <pin num="23" name="SEG_D" type="input"/>
-        <pin num="24" name="DOUT" type="output"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R">
+    <libpart lib="Device" part="R">
       <description>Resistor</description>
+      <docs>~</docs>
       <footprints>
-        <fp>R_*</fp>
-        <fp>R_*</fp>
+        <fp>*:R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
@@ -555,664 +570,701 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="LEEVAWNS" part="MAX7219">
+      <description>Serially Interfaced, 8-Digit LED Display Driver</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX7219</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="input"/>
+        <pin num="2" name="DIG0" type="input"/>
+        <pin num="3" name="DIG4" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIG6" type="input"/>
+        <pin num="6" name="DIG2" type="input"/>
+        <pin num="7" name="DIG3" type="input"/>
+        <pin num="8" name="DIG7" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="DIG5" type="input"/>
+        <pin num="11" name="DIG1" type="input"/>
+        <pin num="12" name="LOAD" type="input"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="SEGA" type="input"/>
+        <pin num="15" name="SEGF" type="input"/>
+        <pin num="16" name="SEGB" type="input"/>
+        <pin num="17" name="SEGG" type="input"/>
+        <pin num="18" name="ISET" type="input"/>
+        <pin num="19" name="VCC" type="power_in"/>
+        <pin num="20" name="SEGC" type="input"/>
+        <pin num="21" name="SEGE" type="input"/>
+        <pin num="22" name="SEGDP" type="input"/>
+        <pin num="23" name="SEGD" type="input"/>
+        <pin num="24" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    <library logical="Connector_Generic">
+      <uri>D:\1.MR-LAP\4.GITHUB\kicad-symbols/Connector_Generic.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    <library logical="Device">
+      <uri>D:\1.MR-LAP\4.GITHUB\kicad-symbols/Device.lib</uri>
     </library>
-    <library logical="microchip">
-      <uri>C:\Program Files\KiCad\share\kicad\library\microchip.lib</uri>
+    <library logical="LEEVAWNS">
+      <uri>G:/KICAD_MY_LIBRARY/library/LEEVAWNS.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J33-Pad1)">
-      <node ref="J33" pin="1"/>
+    <net code="1" name="Net-(J35-Pad1)">
+      <node ref="J35" pin="1"/>
     </net>
-    <net code="2" name="/1-C8">
-      <node ref="U1" pin="17"/>
-      <node ref="J27" pin="2"/>
-      <node ref="J28" pin="2"/>
-      <node ref="J32" pin="2"/>
-      <node ref="J29" pin="2"/>
-      <node ref="J31" pin="2"/>
-      <node ref="J30" pin="2"/>
-      <node ref="J33" pin="2"/>
-      <node ref="J34" pin="2"/>
-    </net>
-    <net code="3" name="/1-R7">
-      <node ref="U1" pin="5"/>
-      <node ref="J5" pin="4"/>
-      <node ref="J33" pin="3"/>
-    </net>
-    <net code="4" name="Net-(J33-Pad4)">
-      <node ref="J33" pin="4"/>
-    </net>
-    <net code="5" name="Net-(J34-Pad1)">
-      <node ref="J34" pin="1"/>
-    </net>
-    <net code="6" name="/1-R8">
-      <node ref="U1" pin="8"/>
-      <node ref="J5" pin="3"/>
-      <node ref="J34" pin="3"/>
-    </net>
-    <net code="7" name="Net-(J34-Pad4)">
-      <node ref="J34" pin="4"/>
-    </net>
-    <net code="8" name="VDD">
-      <node ref="10K2" pin="1"/>
-      <node ref="U1" pin="19"/>
-      <node ref="U3" pin="19"/>
-      <node ref="U2" pin="19"/>
-      <node ref="100n2" pin="1"/>
-      <node ref="10K3" pin="1"/>
-      <node ref="100n3" pin="1"/>
-      <node ref="10K9" pin="1"/>
-      <node ref="10K8" pin="1"/>
-      <node ref="10K5" pin="1"/>
-      <node ref="10K12" pin="1"/>
-      <node ref="10K10" pin="1"/>
-      <node ref="10K11" pin="1"/>
-      <node ref="10K4" pin="1"/>
-      <node ref="100n4" pin="1"/>
-      <node ref="U4" pin="19"/>
-      <node ref="J1" pin="6"/>
-      <node ref="100n1" pin="1"/>
-      <node ref="10K1" pin="1"/>
-      <node ref="10K6" pin="1"/>
-      <node ref="10K7" pin="1"/>
-    </net>
-    <net code="9" name="VSS">
-      <node ref="J25" pin="4"/>
-      <node ref="100n11" pin="1"/>
-      <node ref="100n1" pin="2"/>
-      <node ref="J20" pin="4"/>
-      <node ref="100n6" pin="1"/>
-      <node ref="100n4" pin="2"/>
-      <node ref="J24" pin="4"/>
-      <node ref="100n5" pin="1"/>
-      <node ref="J1" pin="5"/>
-      <node ref="U4" pin="9"/>
-      <node ref="U1" pin="4"/>
+    <net code="2" name="VSS">
+      <node ref="J16" pin="4"/>
+      <node ref="J13" pin="4"/>
+      <node ref="J12" pin="4"/>
+      <node ref="J11" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J15" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J10" pin="4"/>
       <node ref="U1" pin="9"/>
-      <node ref="100n8" pin="1"/>
-      <node ref="J23" pin="4"/>
-      <node ref="100n9" pin="1"/>
-      <node ref="J22" pin="4"/>
-      <node ref="J26" pin="4"/>
-      <node ref="100n12" pin="1"/>
-      <node ref="100n10" pin="1"/>
-      <node ref="100n2" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J26" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J9" pin="4"/>
+      <node ref="C11" pin="2"/>
       <node ref="U3" pin="4"/>
-      <node ref="100n3" pin="2"/>
-      <node ref="U4" pin="4"/>
       <node ref="U3" pin="9"/>
-      <node ref="J21" pin="4"/>
-      <node ref="U2" pin="4"/>
-      <node ref="100n7" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="9"/>
+      <node ref="C12" pin="2"/>
       <node ref="U2" pin="9"/>
-      <node ref="J19" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
     </net>
-    <net code="10" name="Net-(U3-Pad24)">
-      <node ref="U3" pin="24"/>
-      <node ref="U4" pin="1"/>
-    </net>
-    <net code="11" name="Net-(J30-Pad1)">
-      <node ref="J30" pin="1"/>
-    </net>
-    <net code="12" name="/1-R4">
-      <node ref="J4" pin="3"/>
-      <node ref="J30" pin="3"/>
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="13" name="Net-(J30-Pad4)">
-      <node ref="J30" pin="4"/>
-    </net>
-    <net code="14" name="Net-(J31-Pad1)">
+    <net code="3" name="Net-(J31-Pad1)">
       <node ref="J31" pin="1"/>
     </net>
-    <net code="15" name="/1-R5">
-      <node ref="J31" pin="3"/>
-      <node ref="J5" pin="6"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="16" name="Net-(J31-Pad4)">
-      <node ref="J31" pin="4"/>
-    </net>
-    <net code="17" name="Net-(J32-Pad1)">
+    <net code="4" name="Net-(J32-Pad1)">
       <node ref="J32" pin="1"/>
     </net>
-    <net code="18" name="/1-R6">
-      <node ref="U1" pin="10"/>
-      <node ref="J5" pin="5"/>
-      <node ref="J32" pin="3"/>
+    <net code="5" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="19" name="Net-(J32-Pad4)">
-      <node ref="J32" pin="4"/>
+    <net code="6" name="Net-(J32-Pad2)">
+      <node ref="J32" pin="2"/>
     </net>
-    <net code="20" name="/SW2">
-      <node ref="J18" pin="7"/>
-      <node ref="J20" pin="3"/>
-      <node ref="10K6" pin="2"/>
-      <node ref="100n6" pin="2"/>
-    </net>
-    <net code="21" name="Net-(J21-Pad1)">
-      <node ref="J21" pin="1"/>
-    </net>
-    <net code="22" name="Net-(J21-Pad2)">
-      <node ref="J21" pin="2"/>
-    </net>
-    <net code="23" name="/SW1">
-      <node ref="J19" pin="3"/>
-      <node ref="100n5" pin="2"/>
-      <node ref="10K5" pin="2"/>
-      <node ref="J18" pin="8"/>
-    </net>
-    <net code="24" name="Net-(J20-Pad1)">
-      <node ref="J20" pin="1"/>
-    </net>
-    <net code="25" name="Net-(J20-Pad2)">
-      <node ref="J20" pin="2"/>
-    </net>
-    <net code="26" name="Net-(10K3-Pad2)">
-      <node ref="U3" pin="18"/>
-      <node ref="10K3" pin="2"/>
-    </net>
-    <net code="27" name="Net-(U2-Pad24)">
-      <node ref="U2" pin="24"/>
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="28" name="/3-C7">
-      <node ref="J10" pin="2"/>
-      <node ref="J11" pin="2"/>
-    </net>
-    <net code="29" name="/3-C3">
-      <node ref="J11" pin="6"/>
-      <node ref="J10" pin="6"/>
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="30" name="Net-(10K4-Pad2)">
-      <node ref="U4" pin="18"/>
-      <node ref="10K4" pin="2"/>
-    </net>
-    <net code="31" name="/4-C7">
-      <node ref="J14" pin="2"/>
-      <node ref="J15" pin="2"/>
-    </net>
-    <net code="32" name="/4-C4">
-      <node ref="J14" pin="5"/>
-      <node ref="J15" pin="5"/>
-      <node ref="U4" pin="20"/>
-    </net>
-    <net code="33" name="/4-C6">
-      <node ref="J15" pin="3"/>
-      <node ref="U4" pin="21"/>
-      <node ref="J14" pin="3"/>
-    </net>
-    <net code="34" name="/4-C1">
-      <node ref="U4" pin="22"/>
-      <node ref="J14" pin="8"/>
-      <node ref="J15" pin="8"/>
-    </net>
-    <net code="35" name="/4-C5">
-      <node ref="J14" pin="4"/>
-      <node ref="J15" pin="4"/>
-      <node ref="U4" pin="23"/>
-    </net>
-    <net code="36" name="/4-C2">
-      <node ref="J14" pin="7"/>
-      <node ref="J15" pin="7"/>
-      <node ref="U4" pin="14"/>
-    </net>
-    <net code="37" name="Net-(U4-Pad24)">
-      <node ref="U4" pin="24"/>
-    </net>
-    <net code="38" name="/4-C3">
-      <node ref="J14" pin="6"/>
-      <node ref="J15" pin="6"/>
-      <node ref="U4" pin="15"/>
-    </net>
-    <net code="39" name="Net-(J8-Pad1)">
-      <node ref="J8" pin="1"/>
-    </net>
-    <net code="40" name="Net-(J2-Pad1)">
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="41" name="Net-(J3-Pad1)">
+    <net code="7" name="Net-(J3-Pad1)">
       <node ref="J3" pin="1"/>
     </net>
-    <net code="42" name="Net-(J5-Pad1)">
-      <node ref="J5" pin="1"/>
+    <net code="8" name="Net-(J33-Pad1)">
+      <node ref="J33" pin="1"/>
     </net>
-    <net code="43" name="Net-(J4-Pad2)">
+    <net code="9" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J4-Pad2)">
       <node ref="J4" pin="2"/>
     </net>
-    <net code="44" name="Net-(J5-Pad2)">
-      <node ref="J5" pin="2"/>
+    <net code="11" name="Net-(J34-Pad1)">
+      <node ref="J34" pin="1"/>
     </net>
-    <net code="45" name="Net-(J6-Pad1)">
+    <net code="12" name="Net-(J34-Pad2)">
+      <node ref="J34" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J6-Pad1)">
       <node ref="J6" pin="1"/>
     </net>
-    <net code="46" name="Net-(J7-Pad1)">
+    <net code="15" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="16" name="Net-(J36-Pad1)">
+      <node ref="J36" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J36-Pad2)">
+      <node ref="J36" pin="2"/>
+    </net>
+    <net code="18" name="Net-(J37-Pad1)">
+      <node ref="J37" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J7-Pad1)">
       <node ref="J7" pin="1"/>
     </net>
-    <net code="47" name="Net-(J8-Pad2)">
+    <net code="20" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J8-Pad2)">
       <node ref="J8" pin="2"/>
     </net>
-    <net code="48" name="Net-(J9-Pad1)">
+    <net code="22" name="Net-(J38-Pad1)">
+      <node ref="J38" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J38-Pad2)">
+      <node ref="J38" pin="2"/>
+    </net>
+    <net code="24" name="Net-(J9-Pad1)">
       <node ref="J9" pin="1"/>
     </net>
-    <net code="49" name="Net-(J9-Pad2)">
+    <net code="25" name="Net-(J9-Pad2)">
       <node ref="J9" pin="2"/>
     </net>
-    <net code="50" name="Net-(J10-Pad1)">
+    <net code="26" name="Net-(J26-Pad1)">
+      <node ref="J26" pin="1"/>
+    </net>
+    <net code="27" name="/SW1">
+      <node ref="R5" pin="2"/>
+      <node ref="J17" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="28" name="/SW2">
+      <node ref="C2" pin="2"/>
+      <node ref="J17" pin="2"/>
+      <node ref="J10" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="29" name="/SW3">
+      <node ref="C3" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J17" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="30" name="/SW4">
+      <node ref="J17" pin="4"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J12" pin="3"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="31" name="/SW5">
+      <node ref="C5" pin="2"/>
+      <node ref="J13" pin="3"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J17" pin="5"/>
+    </net>
+    <net code="32" name="/SW6">
+      <node ref="R10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J14" pin="3"/>
+      <node ref="J17" pin="6"/>
+    </net>
+    <net code="33" name="/SW7">
+      <node ref="C7" pin="2"/>
+      <node ref="J17" pin="7"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J15" pin="3"/>
+    </net>
+    <net code="34" name="Net-(J25-Pad1)">
+      <node ref="J25" pin="1"/>
+    </net>
+    <net code="35" name="Net-(J25-Pad4)">
+      <node ref="J25" pin="4"/>
+    </net>
+    <net code="36" name="Net-(J24-Pad4)">
+      <node ref="J24" pin="4"/>
+    </net>
+    <net code="37" name="Net-(J24-Pad1)">
+      <node ref="J24" pin="1"/>
+    </net>
+    <net code="38" name="Net-(J27-Pad1)">
+      <node ref="J27" pin="1"/>
+    </net>
+    <net code="39" name="Net-(J28-Pad1)">
+      <node ref="J28" pin="1"/>
+    </net>
+    <net code="40" name="Net-(J29-Pad1)">
+      <node ref="J29" pin="1"/>
+    </net>
+    <net code="41" name="Net-(J30-Pad1)">
+      <node ref="J30" pin="1"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad24)">
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="45" name="Net-(J23-Pad4)">
+      <node ref="J23" pin="4"/>
+    </net>
+    <net code="46" name="/1-C7">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="J31" pin="2"/>
+    </net>
+    <net code="47" name="/1-C6">
+      <node ref="U1" pin="21"/>
+      <node ref="J31" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="48" name="Net-(J16-Pad1)">
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="49" name="Net-(J10-Pad1)">
       <node ref="J10" pin="1"/>
+    </net>
+    <net code="50" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2"/>
     </net>
     <net code="51" name="Net-(J11-Pad1)">
       <node ref="J11" pin="1"/>
     </net>
-    <net code="52" name="Net-(J12-Pad1)">
+    <net code="52" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="53" name="Net-(J12-Pad1)">
       <node ref="J12" pin="1"/>
     </net>
-    <net code="53" name="Net-(J12-Pad2)">
+    <net code="54" name="Net-(J12-Pad2)">
       <node ref="J12" pin="2"/>
     </net>
-    <net code="54" name="Net-(J13-Pad1)">
+    <net code="55" name="Net-(J13-Pad1)">
       <node ref="J13" pin="1"/>
     </net>
-    <net code="55" name="Net-(J13-Pad2)">
+    <net code="56" name="Net-(J13-Pad2)">
       <node ref="J13" pin="2"/>
-    </net>
-    <net code="56" name="Net-(J15-Pad1)">
-      <node ref="J15" pin="1"/>
     </net>
     <net code="57" name="Net-(J14-Pad1)">
       <node ref="J14" pin="1"/>
     </net>
-    <net code="58" name="/SW8">
-      <node ref="100n12" pin="2"/>
-      <node ref="J18" pin="1"/>
-      <node ref="10K12" pin="2"/>
-      <node ref="J26" pin="3"/>
+    <net code="58" name="Net-(J14-Pad2)">
+      <node ref="J14" pin="2"/>
     </net>
-    <net code="59" name="Net-(J16-Pad1)">
-      <node ref="J16" pin="1"/>
+    <net code="59" name="Net-(J15-Pad1)">
+      <node ref="J15" pin="1"/>
     </net>
-    <net code="60" name="/SW7">
-      <node ref="J25" pin="3"/>
-      <node ref="J18" pin="2"/>
-      <node ref="100n11" pin="2"/>
-      <node ref="10K11" pin="2"/>
+    <net code="60" name="Net-(J15-Pad2)">
+      <node ref="J15" pin="2"/>
     </net>
-    <net code="61" name="/SW6">
-      <node ref="J24" pin="3"/>
-      <node ref="J18" pin="3"/>
-      <node ref="10K10" pin="2"/>
-      <node ref="100n10" pin="2"/>
-    </net>
-    <net code="62" name="/SW5">
-      <node ref="100n9" pin="2"/>
-      <node ref="J23" pin="3"/>
-      <node ref="10K9" pin="2"/>
-      <node ref="J18" pin="4"/>
-    </net>
-    <net code="63" name="/SW4">
-      <node ref="100n8" pin="2"/>
-      <node ref="J18" pin="5"/>
-      <node ref="10K8" pin="2"/>
-      <node ref="J22" pin="3"/>
-    </net>
-    <net code="64" name="/SW3">
-      <node ref="100n7" pin="2"/>
-      <node ref="10K7" pin="2"/>
-      <node ref="J21" pin="3"/>
-      <node ref="J18" pin="6"/>
-    </net>
-    <net code="65" name="Net-(J29-Pad1)">
-      <node ref="J29" pin="1"/>
-    </net>
-    <net code="66" name="Net-(J29-Pad4)">
-      <node ref="J29" pin="4"/>
-    </net>
-    <net code="67" name="Net-(J28-Pad4)">
-      <node ref="J28" pin="4"/>
-    </net>
-    <net code="68" name="Net-(J35-Pad6)">
-      <node ref="J35" pin="6"/>
-    </net>
-    <net code="69" name="Net-(J36-Pad6)">
-      <node ref="J36" pin="6"/>
-    </net>
-    <net code="70" name="Net-(J37-Pad6)">
-      <node ref="J37" pin="6"/>
-    </net>
-    <net code="71" name="Net-(J38-Pad6)">
-      <node ref="J38" pin="6"/>
-    </net>
-    <net code="72" name="Net-(J4-Pad1)">
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="73" name="Net-(U2-Pad17)">
-      <node ref="U2" pin="17"/>
-    </net>
-    <net code="74" name="Net-(J22-Pad2)">
-      <node ref="J22" pin="2"/>
-    </net>
-    <net code="75" name="Net-(J16-Pad2)">
+    <net code="61" name="Net-(J16-Pad2)">
       <node ref="J16" pin="2"/>
     </net>
-    <net code="76" name="Net-(J17-Pad1)">
-      <node ref="J17" pin="1"/>
+    <net code="62" name="Net-(J18-Pad4)">
+      <node ref="J18" pin="4"/>
     </net>
-    <net code="77" name="Net-(J17-Pad2)">
-      <node ref="J17" pin="2"/>
+    <net code="63" name="Net-(J18-Pad1)">
+      <node ref="J18" pin="1"/>
     </net>
-    <net code="78" name="Net-(J19-Pad1)">
+    <net code="64" name="Net-(J19-Pad1)">
       <node ref="J19" pin="1"/>
     </net>
-    <net code="79" name="Net-(J19-Pad2)">
-      <node ref="J19" pin="2"/>
+    <net code="65" name="Net-(J19-Pad4)">
+      <node ref="J19" pin="4"/>
     </net>
-    <net code="80" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1"/>
+    <net code="66" name="Net-(J20-Pad1)">
+      <node ref="J20" pin="1"/>
     </net>
-    <net code="81" name="Net-(J22-Pad1)">
+    <net code="67" name="Net-(J20-Pad4)">
+      <node ref="J20" pin="4"/>
+    </net>
+    <net code="68" name="Net-(J21-Pad4)">
+      <node ref="J21" pin="4"/>
+    </net>
+    <net code="69" name="Net-(J21-Pad1)">
+      <node ref="J21" pin="1"/>
+    </net>
+    <net code="70" name="Net-(J22-Pad1)">
       <node ref="J22" pin="1"/>
     </net>
-    <net code="82" name="Net-(J23-Pad1)">
+    <net code="71" name="Net-(J22-Pad4)">
+      <node ref="J22" pin="4"/>
+    </net>
+    <net code="72" name="Net-(J23-Pad1)">
       <node ref="J23" pin="1"/>
     </net>
-    <net code="83" name="Net-(J23-Pad2)">
-      <node ref="J23" pin="2"/>
+    <net code="73" name="/1-R6">
+      <node ref="J32" pin="5"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J23" pin="3"/>
     </net>
-    <net code="84" name="Net-(J24-Pad1)">
-      <node ref="J24" pin="1"/>
+    <net code="74" name="/1-R7">
+      <node ref="J32" pin="4"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J24" pin="3"/>
     </net>
-    <net code="85" name="Net-(J24-Pad2)">
-      <node ref="J24" pin="2"/>
+    <net code="75" name="/1-R8">
+      <node ref="J32" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J25" pin="3"/>
     </net>
-    <net code="86" name="Net-(J25-Pad1)">
-      <node ref="J25" pin="1"/>
-    </net>
-    <net code="87" name="Net-(J25-Pad2)">
-      <node ref="J25" pin="2"/>
-    </net>
-    <net code="88" name="Net-(J26-Pad1)">
-      <node ref="J26" pin="1"/>
-    </net>
-    <net code="89" name="Net-(J26-Pad2)">
-      <node ref="J26" pin="2"/>
-    </net>
-    <net code="90" name="Net-(J27-Pad4)">
-      <node ref="J27" pin="4"/>
-    </net>
-    <net code="91" name="Net-(J27-Pad1)">
-      <node ref="J27" pin="1"/>
-    </net>
-    <net code="92" name="Net-(J28-Pad1)">
-      <node ref="J28" pin="1"/>
-    </net>
-    <net code="93" name="/3-C2">
-      <node ref="J10" pin="7"/>
-      <node ref="U3" pin="14"/>
-      <node ref="J11" pin="7"/>
-    </net>
-    <net code="94" name="/2-C2">
-      <node ref="J6" pin="7"/>
-      <node ref="J7" pin="7"/>
-    </net>
-    <net code="95" name="/2-C1">
-      <node ref="U2" pin="22"/>
-      <node ref="J7" pin="8"/>
-      <node ref="J6" pin="8"/>
-    </net>
-    <net code="96" name="/2-R4">
-      <node ref="U2" pin="7"/>
-      <node ref="J8" pin="3"/>
-    </net>
-    <net code="97" name="/2-R3">
-      <node ref="U2" pin="6"/>
-      <node ref="J8" pin="4"/>
-    </net>
-    <net code="98" name="/2-R2">
-      <node ref="U2" pin="11"/>
-      <node ref="J8" pin="5"/>
-    </net>
-    <net code="99" name="/2-R1">
-      <node ref="U2" pin="2"/>
-      <node ref="J8" pin="6"/>
-    </net>
-    <net code="100" name="/2-C7">
-      <node ref="J6" pin="2"/>
-      <node ref="J7" pin="2"/>
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="101" name="/1-C3">
-      <node ref="U1" pin="15"/>
-      <node ref="J2" pin="6"/>
-      <node ref="J3" pin="6"/>
-    </net>
-    <net code="102" name="/1-C1">
-      <node ref="J2" pin="8"/>
-      <node ref="U1" pin="22"/>
-      <node ref="J3" pin="8"/>
-    </net>
-    <net code="103" name="/1-C2">
-      <node ref="J2" pin="7"/>
-      <node ref="J3" pin="7"/>
-    </net>
-    <net code="104" name="/2-C6">
-      <node ref="U2" pin="21"/>
-      <node ref="J7" pin="3"/>
-      <node ref="J6" pin="3"/>
-    </net>
-    <net code="105" name="/1-C4">
-      <node ref="J2" pin="5"/>
-      <node ref="J3" pin="5"/>
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="106" name="/1-C5">
-      <node ref="U1" pin="23"/>
-      <node ref="J3" pin="4"/>
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="107" name="/1-C6">
-      <node ref="J3" pin="3"/>
-      <node ref="U1" pin="21"/>
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="108" name="/1-C7">
-      <node ref="J2" pin="2"/>
-      <node ref="U1" pin="14"/>
-      <node ref="J3" pin="2"/>
-    </net>
-    <net code="109" name="/2-C5">
-      <node ref="J7" pin="4"/>
-      <node ref="U2" pin="23"/>
-      <node ref="J6" pin="4"/>
-    </net>
-    <net code="110" name="/2-C4">
-      <node ref="U2" pin="20"/>
-      <node ref="J7" pin="5"/>
-      <node ref="J6" pin="5"/>
-    </net>
-    <net code="111" name="/2-C3">
-      <node ref="J6" pin="6"/>
-      <node ref="U2" pin="15"/>
-      <node ref="J7" pin="6"/>
-    </net>
-    <net code="112" name="/2-R8">
-      <node ref="U2" pin="8"/>
-      <node ref="J9" pin="3"/>
-    </net>
-    <net code="113" name="/2-R7">
-      <node ref="U2" pin="5"/>
-      <node ref="J9" pin="4"/>
-    </net>
-    <net code="114" name="/2-R6">
-      <node ref="U2" pin="10"/>
-      <node ref="J9" pin="5"/>
-    </net>
-    <net code="115" name="/2-R5">
-      <node ref="J9" pin="6"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="116" name="Net-(10K1-Pad2)">
-      <node ref="10K1" pin="2"/>
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="117" name="/4-C8">
-      <node ref="U4" pin="17"/>
-      <node ref="J37" pin="5"/>
-      <node ref="J38" pin="5"/>
-    </net>
-    <net code="118" name="/3-R5">
-      <node ref="J13" pin="6"/>
-      <node ref="J36" pin="1"/>
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="119" name="/3-R6">
-      <node ref="J36" pin="2"/>
-      <node ref="U3" pin="10"/>
-      <node ref="J13" pin="5"/>
-    </net>
-    <net code="120" name="/3-R7">
-      <node ref="U3" pin="5"/>
-      <node ref="J13" pin="4"/>
-      <node ref="J36" pin="3"/>
-    </net>
-    <net code="121" name="/3-R8">
-      <node ref="U3" pin="8"/>
-      <node ref="J13" pin="3"/>
-      <node ref="J36" pin="4"/>
-    </net>
-    <net code="122" name="/4-R1">
-      <node ref="J16" pin="6"/>
-      <node ref="J37" pin="1"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="123" name="/4-R2">
-      <node ref="J37" pin="2"/>
-      <node ref="U4" pin="11"/>
-      <node ref="J16" pin="5"/>
-    </net>
-    <net code="124" name="/4-R3">
-      <node ref="J16" pin="4"/>
-      <node ref="J37" pin="3"/>
-      <node ref="U4" pin="6"/>
-    </net>
-    <net code="125" name="/4-R4">
-      <node ref="J37" pin="4"/>
-      <node ref="U4" pin="7"/>
+    <net code="76" name="/SW8">
+      <node ref="C8" pin="2"/>
+      <node ref="R12" pin="2"/>
       <node ref="J16" pin="3"/>
+      <node ref="J17" pin="8"/>
     </net>
-    <net code="126" name="/3-C8">
-      <node ref="U3" pin="17"/>
-      <node ref="J36" pin="5"/>
-      <node ref="J35" pin="5"/>
-    </net>
-    <net code="127" name="/4-R5">
-      <node ref="J38" pin="1"/>
-      <node ref="U4" pin="3"/>
-      <node ref="J17" pin="6"/>
-    </net>
-    <net code="128" name="/4-R6">
-      <node ref="J17" pin="5"/>
-      <node ref="J38" pin="2"/>
-      <node ref="U4" pin="10"/>
-    </net>
-    <net code="129" name="/4-R7">
-      <node ref="J38" pin="3"/>
-      <node ref="U4" pin="5"/>
-      <node ref="J17" pin="4"/>
-    </net>
-    <net code="130" name="/4-R8">
-      <node ref="J38" pin="4"/>
-      <node ref="J17" pin="3"/>
-      <node ref="U4" pin="8"/>
-    </net>
-    <net code="131" name="/DIN">
+    <net code="77" name="/1-C5">
+      <node ref="J31" pin="4"/>
+      <node ref="U1" pin="23"/>
       <node ref="J1" pin="4"/>
-      <node ref="U1" pin="1"/>
     </net>
-    <net code="132" name="/1-R1">
-      <node ref="J4" pin="6"/>
-      <node ref="J27" pin="3"/>
-      <node ref="U1" pin="2"/>
+    <net code="78" name="+5V">
+      <node ref="C9" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="19"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="19"/>
+      <node ref="J26" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="19"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="19"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R7" pin="1"/>
     </net>
-    <net code="133" name="/1-R2">
-      <node ref="J28" pin="3"/>
-      <node ref="U1" pin="11"/>
-      <node ref="J4" pin="5"/>
+    <net code="79" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+      <node ref="U3" pin="1"/>
     </net>
-    <net code="134" name="/1-R3">
-      <node ref="U1" pin="6"/>
-      <node ref="J29" pin="3"/>
-      <node ref="J4" pin="4"/>
-    </net>
-    <net code="135" name="/3-R1">
-      <node ref="U3" pin="2"/>
-      <node ref="J12" pin="6"/>
-      <node ref="J35" pin="1"/>
-    </net>
-    <net code="136" name="/3-R2">
-      <node ref="U3" pin="11"/>
-      <node ref="J35" pin="2"/>
-      <node ref="J12" pin="5"/>
-    </net>
-    <net code="137" name="/3-R3">
-      <node ref="U3" pin="6"/>
-      <node ref="J35" pin="3"/>
-      <node ref="J12" pin="4"/>
-    </net>
-    <net code="138" name="/3-R4">
-      <node ref="J12" pin="3"/>
-      <node ref="J35" pin="4"/>
-      <node ref="U3" pin="7"/>
-    </net>
-    <net code="139" name="Net-(10K2-Pad2)">
+    <net code="80" name="Net-(R2-Pad2)">
       <node ref="U2" pin="18"/>
-      <node ref="10K2" pin="2"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="140" name="Net-(U1-Pad24)">
+    <net code="81" name="Net-(U1-Pad24)">
       <node ref="U1" pin="24"/>
       <node ref="U2" pin="1"/>
     </net>
-    <net code="141" name="/3-C4">
-      <node ref="U3" pin="20"/>
-      <node ref="J10" pin="5"/>
-      <node ref="J11" pin="5"/>
+    <net code="82" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="18"/>
     </net>
-    <net code="142" name="/3-C6">
+    <net code="83" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="18"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="84" name="Net-(R4-Pad2)">
+      <node ref="U4" pin="18"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="85" name="Net-(U3-Pad24)">
+      <node ref="U3" pin="24"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="86" name="/3-C6">
+      <node ref="J35" pin="3"/>
+      <node ref="J5" pin="3"/>
       <node ref="U3" pin="21"/>
-      <node ref="J11" pin="3"/>
-      <node ref="J10" pin="3"/>
     </net>
-    <net code="143" name="/CS">
-      <node ref="U1" pin="12"/>
-      <node ref="U3" pin="12"/>
-      <node ref="U4" pin="12"/>
-      <node ref="J1" pin="3"/>
-      <node ref="U2" pin="12"/>
+    <net code="87" name="/1-C4">
+      <node ref="U1" pin="20"/>
+      <node ref="J31" pin="5"/>
+      <node ref="J1" pin="5"/>
     </net>
-    <net code="144" name="/3-C1">
-      <node ref="J11" pin="8"/>
+    <net code="88" name="/1-C3">
+      <node ref="J31" pin="6"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="89" name="/1-C2">
+      <node ref="J31" pin="7"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="90" name="/1-C1">
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="22"/>
+      <node ref="J31" pin="8"/>
+    </net>
+    <net code="91" name="/2-C7">
+      <node ref="J33" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="92" name="/2-C6">
+      <node ref="U2" pin="21"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J33" pin="3"/>
+    </net>
+    <net code="93" name="/2-C5">
+      <node ref="U2" pin="23"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J33" pin="4"/>
+    </net>
+    <net code="94" name="/2-C4">
+      <node ref="J33" pin="5"/>
+      <node ref="J3" pin="5"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="95" name="/2-C3">
+      <node ref="U2" pin="16"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J33" pin="6"/>
+    </net>
+    <net code="96" name="/2-C2">
+      <node ref="U2" pin="14"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J33" pin="7"/>
+    </net>
+    <net code="97" name="/2-C1">
+      <node ref="U2" pin="22"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J33" pin="8"/>
+    </net>
+    <net code="98" name="/3-C7">
+      <node ref="J35" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="99" name="/3-C5">
+      <node ref="U3" pin="23"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J35" pin="4"/>
+    </net>
+    <net code="100" name="/3-C4">
+      <node ref="U3" pin="20"/>
+      <node ref="J35" pin="5"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="101" name="/3-C3">
+      <node ref="U3" pin="16"/>
+      <node ref="J35" pin="6"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="102" name="/3-C2">
+      <node ref="U3" pin="14"/>
+      <node ref="J5" pin="7"/>
+      <node ref="J35" pin="7"/>
+    </net>
+    <net code="103" name="/3-C1">
+      <node ref="J5" pin="8"/>
+      <node ref="J35" pin="8"/>
       <node ref="U3" pin="22"/>
-      <node ref="J10" pin="8"/>
     </net>
-    <net code="145" name="/CLK">
-      <node ref="U3" pin="13"/>
-      <node ref="U4" pin="13"/>
-      <node ref="J1" pin="2"/>
+    <net code="104" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="105" name="/1-R5">
+      <node ref="U1" pin="3"/>
+      <node ref="J22" pin="3"/>
+      <node ref="J32" pin="6"/>
+    </net>
+    <net code="106" name="/2-R4">
+      <node ref="U2" pin="7"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="107" name="/2-R3">
+      <node ref="J4" pin="4"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="108" name="/2-R2">
+      <node ref="J4" pin="5"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="109" name="/2-R1">
+      <node ref="J4" pin="6"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="110" name="/2-R8">
+      <node ref="J34" pin="3"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="111" name="/2-R7">
+      <node ref="U2" pin="5"/>
+      <node ref="J34" pin="4"/>
+    </net>
+    <net code="112" name="/2-R6">
+      <node ref="J34" pin="5"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="113" name="/2-R5">
+      <node ref="U2" pin="3"/>
+      <node ref="J34" pin="6"/>
+    </net>
+    <net code="114" name="/1-R3">
+      <node ref="U1" pin="6"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J20" pin="3"/>
+    </net>
+    <net code="115" name="/1-R2">
+      <node ref="J2" pin="5"/>
+      <node ref="J19" pin="3"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="116" name="/1-R1">
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J18" pin="3"/>
+    </net>
+    <net code="117" name="/4-R5">
+      <node ref="J30" pin="6"/>
+      <node ref="J38" pin="6"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="118" name="/3-R5">
+      <node ref="U3" pin="3"/>
+      <node ref="J28" pin="6"/>
+      <node ref="J36" pin="6"/>
+    </net>
+    <net code="119" name="/4-C8">
+      <node ref="U4" pin="17"/>
+      <node ref="J29" pin="2"/>
+      <node ref="J30" pin="2"/>
+    </net>
+    <net code="120" name="/4-R4">
+      <node ref="U4" pin="7"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J29" pin="3"/>
+    </net>
+    <net code="121" name="/4-R3">
+      <node ref="J29" pin="4"/>
+      <node ref="J8" pin="4"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="122" name="/4-R2">
+      <node ref="U4" pin="11"/>
+      <node ref="J29" pin="5"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="123" name="/4-R1">
+      <node ref="J29" pin="6"/>
+      <node ref="J8" pin="6"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="124" name="/4-R8">
+      <node ref="J38" pin="3"/>
+      <node ref="U4" pin="8"/>
+      <node ref="J30" pin="3"/>
+    </net>
+    <net code="125" name="/4-R7">
+      <node ref="J30" pin="4"/>
+      <node ref="J38" pin="4"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="126" name="/4-R6">
+      <node ref="U4" pin="10"/>
+      <node ref="J30" pin="5"/>
+      <node ref="J38" pin="5"/>
+    </net>
+    <net code="127" name="/3-R6">
+      <node ref="J28" pin="5"/>
+      <node ref="J36" pin="5"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="128" name="/CLK">
       <node ref="U1" pin="13"/>
       <node ref="U2" pin="13"/>
+      <node ref="J26" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U4" pin="13"/>
     </net>
-    <net code="146" name="/3-C5">
-      <node ref="U3" pin="23"/>
-      <node ref="J10" pin="4"/>
-      <node ref="J11" pin="4"/>
+    <net code="129" name="/CS">
+      <node ref="U4" pin="12"/>
+      <node ref="U2" pin="12"/>
+      <node ref="J26" pin="3"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="130" name="/DIN">
+      <node ref="U1" pin="1"/>
+      <node ref="J26" pin="4"/>
+    </net>
+    <net code="131" name="/3-C8">
+      <node ref="J27" pin="2"/>
+      <node ref="J28" pin="2"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="132" name="/3-R4">
+      <node ref="J27" pin="3"/>
+      <node ref="U3" pin="7"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="133" name="/3-R3">
+      <node ref="J27" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="134" name="/3-R2">
+      <node ref="J6" pin="5"/>
+      <node ref="J27" pin="5"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="135" name="/3-R1">
+      <node ref="J27" pin="6"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="136" name="/3-R8">
+      <node ref="U3" pin="8"/>
+      <node ref="J36" pin="3"/>
+      <node ref="J28" pin="3"/>
+    </net>
+    <net code="137" name="/3-R7">
+      <node ref="U3" pin="5"/>
+      <node ref="J28" pin="4"/>
+      <node ref="J36" pin="4"/>
+    </net>
+    <net code="138" name="/4-C2">
+      <node ref="J37" pin="7"/>
+      <node ref="U4" pin="14"/>
+      <node ref="J7" pin="7"/>
+    </net>
+    <net code="139" name="/4-C7">
+      <node ref="J37" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="140" name="/1-C8">
+      <node ref="J25" pin="2"/>
+      <node ref="J23" pin="2"/>
+      <node ref="J24" pin="2"/>
+      <node ref="J18" pin="2"/>
+      <node ref="J20" pin="2"/>
+      <node ref="J19" pin="2"/>
+      <node ref="J21" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="J22" pin="2"/>
+    </net>
+    <net code="141" name="/1-R4">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="J21" pin="3"/>
+    </net>
+    <net code="142" name="/4-C3">
+      <node ref="U4" pin="16"/>
+      <node ref="J37" pin="6"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="143" name="/4-C4">
+      <node ref="J7" pin="5"/>
+      <node ref="U4" pin="20"/>
+      <node ref="J37" pin="5"/>
+    </net>
+    <net code="144" name="/4-C6">
+      <node ref="J37" pin="3"/>
+      <node ref="U4" pin="21"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="145" name="/4-C1">
+      <node ref="J37" pin="8"/>
+      <node ref="U4" pin="22"/>
+      <node ref="J7" pin="8"/>
+    </net>
+    <net code="146" name="/4-C5">
+      <node ref="J7" pin="4"/>
+      <node ref="U4" pin="23"/>
+      <node ref="J37" pin="4"/>
     </net>
   </nets>
 </export>
